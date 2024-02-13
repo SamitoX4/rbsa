@@ -39,9 +39,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "gh-pages": "gh-pages -d build && mv build docs",
+    "gh-pages": "gh-pages -d build",
     "build": "react-scripts build",
-    "build-gh-pages": "npm run build && npm run gh-pages",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint ./src",
